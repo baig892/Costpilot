@@ -6,10 +6,18 @@
       "Effect": "Allow",
       "Action": [
         "ec2:DescribeInstances",
+        "ec2:DescribeInstanceTypes",
         "ec2:DescribeVolumes",
         "ec2:DescribeSnapshots",
         "ec2:DescribeAddresses",
-        "cloudwatch:GetMetricStatistics"
+        "ec2:DescribeNatGateways",
+        "ec2:DescribeRegions",
+        "cloudwatch:GetMetricStatistics",
+        "rds:DescribeDBInstances",
+        "elasticloadbalancing:DescribeLoadBalancers",
+        "logs:DescribeLogGroups",
+        "ce:GetCostAndUsage",
+        "pricing:GetProducts"
       ],
       "Resource": "*"
     }

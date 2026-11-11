@@ -3,3 +3,5 @@ __pycache__/
 last_findings.json
 .env
 *.pem
+reports/
+costpilot_v1_backup.py
